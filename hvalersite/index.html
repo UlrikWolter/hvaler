@@ -1,34 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>Hvaler</title>
-
+<title>Hvaler</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-ul {
-  list-style-type: none;
+* {
+  box-sizing: border-box;
+}
+
+body {
   margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333333;
 }
 
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
+/* Style the header */
+.header {
+  background-color: #34d2eb;
+  padding: 20px;
   text-align: center;
-  padding: 16px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
 }
 
-li a:hover {
+/* Change color on hover */
+.topnav a:hover {
   background-color: #34d2eb;
+  color: black;
 }
 
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/*billede*/
 
 img {
   display: block;
@@ -38,42 +73,26 @@ img {
   width: 50%;
 }
 
-a {
-  font-family: "Georgia", Georgia, serif;
-}
-
-h2 {
-  text-align: center;
-}
-
-p.normal {
-  font-weight: normal;
-}
-
-body {
-  background-color: #34d2eb;
-}
 </style>
-
 </head>
 <body>
-<header><h1>Hjemmesiden for hvaler</h1></header>
 
-<ul>
-  <li><a href="#home">Hjem</a></li>
-  <li><a href="#news">Hvaler</a></li>
-  <li><a href="#contact">Kontakt</a></li>
-  <li><a href="#about">Om</a></li>
-</ul>
+<div class="header">
+  <h1>Hvaler</h1>
+  <p>Denne hjemmeside er til folk, der elsker hvaler</p>
+</div>
 
+<div class="topnav">
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+</div>
 
-<a>
-  <header><h2>Blåhval</h2></header>
-
-	<b>
-	<img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Minke_Whale_%28NOAA%29.jpg">
-
-	<p class="normal">Blåhvalen (latin: Balaenoptera musculus) er det største nulevende dyr og det tungeste dyr, der nogensinde har levet. Blåhvaler kan blive 33 meter lange og veje op til 160 ton. Blåhvalen har en strømlinet krop og er mørk gråblå i farven (genskinnet fra havet gør den mere blå, end den egentlig er), men kan have områder med enten mørkere eller lysere pigmentering. Af og til kan blåhvalen også få et gulligt skær i farven, hvilket gav den navnet sulfurbug blandt hvalfangere. Dette skyldes kiselalger, som vokser på kroppen. Den kendes fra sin nære slægtning finhvalen ved at være større og vise halen når den dykker. Finhvaler viser sjældent halen når de dykker og har i modsætning til blåhvaler en hvid underkæbe på venstre side.
+<div class="row">
+  <div class="column">
+    <h2>Blåhval</h2>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Minke_Whale_%28NOAA%29.jpg">
+    <p>Blåhvalen (latin: Balaenoptera musculus) er det største nulevende dyr og det tungeste dyr, der nogensinde har levet. Blåhvaler kan blive 33 meter lange og veje op til 160 ton. Blåhvalen har en strømlinet krop og er mørk gråblå i farven (genskinnet fra havet gør den mere blå, end den egentlig er), men kan have områder med enten mørkere eller lysere pigmentering. Af og til kan blåhvalen også få et gulligt skær i farven, hvilket gav den navnet sulfurbug blandt hvalfangere. Dette skyldes kiselalger, som vokser på kroppen. Den kendes fra sin nære slægtning finhvalen ved at være større og vise halen når den dykker. Finhvaler viser sjældent halen når de dykker og har i modsætning til blåhvaler en hvid underkæbe på venstre side.
 
 Som hos andre bardehvaler er hovedet hos blåhval stort, men ikke ligeså dominerende som hos rethvalerne. På undersiden af hovedet og nedover mod brystregionen har den mellem 55 og 88 strubefurer. I munden har den 540-790 sorte barder, som bliver op til 1 meter lange og hænger ned fra overkæben. Barderne er bagoverbøjede og stopper omkring 50 cm længere tilbage i munden end udgangspunktet. Langt bag på ryggen sidder en, i forhold til kropsstørrelsen, ubetydelig rygfinne, ca. 30-40 cm høj. Rygfinnen bliver oftest kun synlig et kort øjeblik, når hvalen ruller fremover for at dykke.
 
@@ -86,9 +105,32 @@ Blåhvaler findes i alle jordens oceaner. Det skønnes, at der i dag findes mell
 Blåhvaler kommunikerer ligesom andre bardehvaler med kraftige undervandslyde. Blåhvalernes lyde er pulser på op til 40 sekunders længde og ligger i frekvensområdet 10 Hz - 150 Hz, på kanten af og dybere end lyde mennesker kan opfatte. I det åbne ocean kan lydene høres mange hundrede km væk, i nogle tilfælde endnu længere.
 
 Blåhvaler ses meget sjældent i danske farvande. I det 20. århundrede strandede blåhvaler 2 gange i Danmark: 1931 ved Årøsund og 1936 ved Skagen.</p>
-	</b>
-</a>
+  </div>
+  
+  <div class="column">
+    <h2>Kaskelothval</h2>
+     <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Mother_and_baby_sperm_whale.jpg">
+    <p>Kaskelothvalen (latin: Physeter macrocephalus), eller blot kaskelot, er verdens største tandhval. Kaskelotten findes ved og udenfor kontinentalsoklen i de fleste have over hele verden. Hannerne kan blive op til 20 m og veje op til ca. 55 ton. Hunnerne bliver kun op til 13 m og vejer op til 20 ton.
 
+Kaskelotter hører til blandt de dybest dykkende hvaler, og dykketider på over 1 time og dybder på 1000 meter eller mere er ikke usædvanligt for hannerne.
+
+Kaskelothvalen er med sin store næse med spermacetorganet et aktivt jagende rovdyr, der på stor dybde finder og fanger sit bytte ved hjælp af lyd, på samme måde som man måler afstand og retning ved hjælp af ekkolod.
+
+Navnet kaskelot kommer af det franske ord "cachalot", der er af uvis oprindelse. På norsk hedder den spermhval, der, ligesom det engelske sperm whale, hentyder til den særlige spermacetolie, der findes i næsen i det såkaldte spermacetorgan. Denne olie (spermacet) er klar og flydende ved kropstemperatur, men størkner ved lavere temperaturer til en hvid, stearinagtig masse, der har en vis lighed med sæd (sperm).</p>
+  </div>
+  
+  <div class="column">
+    <h2>Spækhugger</h2>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/JumpingOrca.jpg">
+    <p>Spækhuggeren (latin: Orcinus orca) er en tandhval, der tilhører delfinfamilien og er den største delfinart i verden. Den er efter areal det næstmest udbredte pattedyr på jorden (efter mennesket) og findes i alle jordens have, fra de arktiske regioner til de tropiske have. Den lever af både fisk, havskildpadder, havfugle, hajer, sæler, søkøer og endda andre tandhvaler, hvilket placerer spækhuggeren øverst i den maritime fødekæde. Spækhuggere er ligeledes kendt for at angribe bardehvaler, især gråhvaler og blåhvaler.
+
+Spækhuggeren er et havpattedyr med et frygtindgydende ry, der går tilbage til Gaius Plinius Secundus' udgivelse af Naturalis Historia i år 77. Der har ikke været nogen rapporterede tilfælde af angreb på mennesker i naturen, bortset fra et enkelt tilfælde hvor en dreng i Alaska blev ramt, men ikke bidt, mens han svømmede. Der har dog været isolerede tilfælde, hvor spækhuggere i fangenskab har angrebet deres trænere i delfinarier og akvarier. I antikkens Rom blev dyret kaldt "orca". Herfra stammer artens senere videnskabelige navn Orcinus orca. Romerne havde muligvis lånt navnet fra det græske ord ὄρυξ der bl.a. blev brugt om en hvalart. Betegnelsen "orc" (eller dets variant "ork") er historisk blevet brugt til at beskrive store fisk, hvaler og søuhyrer. Det betragtes nu som en forældet udgave af "orca".
+
+Det danske navn, spækhugger, er i gamle dage opstået blandt hvalfangere, som var bitre over, at flokke af de hurtige spækhuggere kunne æde (hugge) af det værdifulde spæk på de nedlagte bardehvaler, inden man kunne nå at skære det af og laste det.
+
+På andre sprog har den mere faretruende navne. Det engelske navn "killer whale" (dræberhval) er en fri oversættelse fra spansk. På dansk anvendes betegnelsen "dræberhval" imidlertid ikke. På finsk og hollandsk kaldes den for henholdsvis miekkavalas og zwaardwalvis, hvilket betyder "sværdhval", som også er dens navn på tysk (Schwertwal), med reference til hannernes store rygfinne. For Haida-folket, de lokale indfødte i øgruppen Haida Gwaii ud for Britisk Columbia, var dyret kendt som skana eller "dræberdæmon". Japanerne kalder den shachi (鯱), hvis Kanji kombinerer tegnene for fisk (魚) og tiger (虎).</p>
+  </div>
+</div>
 
 </body>
 </html>
