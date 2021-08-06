@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Hvaler</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #34d2eb;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #34d2eb;
+  color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/*billede*/
+
+img {
+  display: block;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Hvaler</h1>
+  <p>Denne hjemmeside er til folk, der elsker hvaler</p>
+</div>
+
+<div class="topnav">
+  <a href="https://ulrikwolter.github.io/hvaler/hvalersite/">Hvaler</a>
+  <a href="#">Om denne side</a>
+  <a href="#">Kontakt</a>
+</div>
+
+<div class="row">
+  <div class="column">
+    <h2>Kontakt</h2>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Android_Email_8.1_Icon.png">
+    <p> Email: Hval@gmail.com</p>
+    <p> Telefon: 23 45 67 89 </p>
+    <p> Adresse: Hvalvænget 23, Ved vandet 2500</p>
+  </div>
+
+</div>
+
+</body>
+</html>
