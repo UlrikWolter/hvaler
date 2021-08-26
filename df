@@ -1,0 +1,48 @@
+*   [33m66d73a5[m[33m ([m[1;31morigin/gh-pages[m[33m)[m Merge pull request #1 from UlrikWolter/featurestylesheet3
+[31m|[m[32m\[m  
+[31m|[m * [33m7aecc04[m[33m ([m[1;31morigin/featurestylesheet3[m[33m)[m ændret i størrelse
+[31m|[m[31m/[m  
+*   [33mf71a1ac[m[33m ([m[1;36mHEAD -> [m[1;32mgh-pages[m[33m)[m Merge branch 'featurecssstylesheet2' into gh-pages
+[33m|[m[34m\[m  
+[33m|[m * [33m74b12b8[m rettede links
+[33m|[m[33m/[m  
+*   [33mfcc33d5[m Merge branch 'featurecssstylesheet' into gh-pages
+[35m|[m[36m\[m  
+[35m|[m * [33mac21944[m added css stylesheet & moved kontakt.html & omdenneside.html to hvalersite dir
+[35m|[m[35m/[m  
+* [33md50fe60[m bugfix2
+* [33m0ba652d[m bugfix
+*   [33m3588676[m Merge branch 'featurelinks2' into gh-pages
+[1;31m|[m[1;32m\[m  
+[1;31m|[m * [33m09d8e02[m nyt link 'Om denne side' + opdateret de andre links
+[1;31m|[m * [33mb70b155[m opdaterede links kontakt
+[1;31m|[m * [33m39c7550[m addet kontakt link
+[1;31m|[m[1;31m/[m  
+*   [33m6bd87b7[m Merge branch 'featurelinks' into gh-pages
+[1;33m|[m[1;34m\[m  
+[1;33m|[m * [33m725175c[m oprettet links i hovedsiden
+[1;33m|[m[1;33m/[m  
+*   [33m250efe7[m Merge branch 'featurecss2' into gh-pages
+[1;35m|[m[1;36m\[m  
+[1;35m|[m * [33m91310fe[m tre kolonner
+[1;35m|[m[1;35m/[m  
+*   [33m7b71ed7[m Merge branch 'featurecss1' into gh-pages
+[31m|[m[32m\[m  
+[31m|[m * [33m8ff5343[m CSS lir
+[31m|[m[31m/[m  
+*   [33md2b3042[m Merge branch 'featurehvalinfo1' into gh-pages
+[33m|[m[34m\[m  
+[33m|[m * [33m9009f03[m info om blåhvalen
+[33m|[m[33m/[m  
+*   [33mc1fa547[m Merge branch 'featureNav' into gh-pages
+[35m|[m[36m\[m  
+[35m|[m * [33m2bbc008[m Indsat Hori.nav.bar m. lidt css og flyttet rundt på overskrift
+[35m|[m[35m/[m  
+*   [33m3bc5cde[m Merge branch 'gh-pages' of https://github.com/UlrikWolter/hvaler into gh-pages
+[1;31m|[m[1;32m\[m  
+[1;31m|[m * [33md786a7d[m Set theme jekyll-theme-cayman
+* [1;32m|[m [33m23c85db[m basen
+[1;32m|[m[1;32m/[m  
+* [33mb84601a[m Create index.md
+* [33mcf80a20[m Set theme jekyll-theme-cayman
+* [33m0c9aeca[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m Initial commit
