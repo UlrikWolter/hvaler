@@ -1,4 +1,2 @@
 README.md
-
-
-Starten på en ny develop
+Release 2.0
